@@ -10,7 +10,7 @@ def change_rainbow_colors
   RAINBOW_COLORS [2] = "light_yellow"
   return RAINBOW_COLORS 
 end
-change_rainbow_colors
+
 
 def add_colors
   RAINBOW_COLORS .push "green"
@@ -18,4 +18,3 @@ def add_colors
   return RAINBOW_COLORS 
   
 end
-add_colors
